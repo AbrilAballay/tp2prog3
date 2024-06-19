@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center; /* Centra el contenido verticalmente */
   height: 100vh; /* Toma el 100% de la altura de la ventana */
-  width: 100%; 
+  width: 100vh; 
 }
 .header {
   margin-bottom: 10px;

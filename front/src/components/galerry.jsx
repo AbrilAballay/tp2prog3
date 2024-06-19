@@ -57,7 +57,7 @@ export default function Gallery() {
             <h3 className="player-counter">  
                 ({index + 1} de {jugadores.length})
             </h3>
-            <button className="button" onClick={handleShowMore}> {showMore ? 'Ocultar' : 'Mostrar'} Detalles</button>
+            <button className="button" onClick={handleShowMore}> {showMore ? 'Ocultar' : 'Mostrar'} historia del jugador</button>
             {showMore && <p className="player-description">{jugador.descripcion}</p>}
         </div>
     )};
